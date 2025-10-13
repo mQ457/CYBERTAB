@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стоимость</title>
+    <link rel="stylesheet" href="price.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>Dream<br>Destinations</h1>
+        </div>
+        <div class="head">
+            <ul>
+               <li><a href="index.html">Главная</a></li>
+               <li><a href="Gids.html">Про гида</a></li>
+               <li><a href="Tures.html">Программа тура</a></li>
+               <li><a id="bolt" href="price.html">Стоимость</a></li>
+               <li><a href="blog.html">Блог</a></li>
+               <li><a href="Cont.html">Контакты</a></li>
+               <a href="FAQ.html" class="button">FAQ</a>
+            </ul>
+        </div>
+    </header> 
+    <article class="box">
+        <div class="box_gl">
+            <div class="text">
+                <h1>ТВОЕ<br>НЕЗАБЫВАЕМОЕ <br>ПРЕКЛЮЧЕНИЕ</h1>
+                <p>*В том случае, если в туре нечетное количество клиентов <br>или не будет набрано необходимого количество человек<br> для двухместного проживания, необходимо будет<br> доплатить за комфортное отдельное проживание.<br> Доплата за одноместное проживание 26 750р</p>
+                <h3>+7(123)456-78-90</h3>
+            </div> 
+            <div class="pictures">
+                <img src="image/price_img.png">
+            </div>
+            <div class="form-container">
+                <h1>ОСТАВЬ ЗАЯВКУ ТУТ</h1>
+                <input type="text" id="name" placeholder="Имя..">
+                <input type="tel" id="phone" placeholder="Номер телефона..">
+                <button onclick="submitForm()">ОТПРАВИТЬ</button>
+                <div class="message" id="successMessage">Заявка отправлена</div>
+              </div>
+        </div>
+    </article>
+    <footer>
+        <div class="footers">
+            <div class="text_footer">
+                <div class="first_textbox">
+                    <div class="h_text">
+                    <h4>Компания Dream Destinations</h4>
+                    <p>— ваш надежный партнер в мире горного туризма.</p>
+                    </div>
+                    <div class="numbe_footer">
+                        <p><a href="">DreamDestination@domin.com</a></p>
+                        <p>+7 (123) 456-78-90</p>
+                    </div>
+                </div>
+                <div class="second_textbox">
+                    <h4>Наши услуги</h4>
+                    <ul class="arrow-list">
+                        <li><a href="">Летние походы</a></li>
+                        <li><a href="">Зимние походы</a></li>
+                        <li><a href="">Посещение горных храмов</a></li>
+                        <li><a href="">Экстримальные виды туризма</a></li>
+                        <li><a href="">Походы через джурнгли Амазонии</a></li>
+                        <li><a href="">Туры в Африку</a></li>
+                    </ul>
+                </div>
+                <div class="third_textbox">
+                    <h4>Важно для путешествий</h4>
+                    <ul class="arrow-list">
+                        <li><a href="">Как собраться в долгие походы</a></li>
+                        <li><a href="">Важные элементы экипировки</a></li>
+                        <li><a href="">Важные элементы экипировки</a></li>
+                        <li><a href="">Правила проведения ПМП</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+     </footer>
+</body>
+<script>
+    function submitForm() {
+      // Получаем поля формы
+      const nameField = document.getElementById("name");
+      const phoneField = document.getElementById("phone");
+      const successMessage = document.getElementById("successMessage");
+      let valid = true;
+  
+      // Проверяем заполненность полей
+      if (nameField.value.trim() === "") {
+        nameField.classList.add("error");
+        valid = false;
+      } else {
+        nameField.classList.remove("error");
+      }
+  
+      if (phoneField.value.trim() === "") {
+        phoneField.classList.add("error");
+        valid = false;
+      } else {
+        phoneField.classList.remove("error");
+      }
+  
+      // Если все поля заполнены, показываем сообщение об отправке
+      if (valid) {
+        successMessage.style.display = "block";
+        nameField.value = "";  // Очищаем поля после отправки
+        phoneField.value = "";
+        setTimeout(() => { successMessage.style.display = "none"; }, 3000); // Убираем сообщение через 3 секунды
+      }
+    }
+  </script>
+</html>

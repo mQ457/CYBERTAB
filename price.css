@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@font-face {
+    font-family: "NEXTART"; 
+    src: url("/fonts/NEXT/ART_Bolt.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+@font-face {
+    font-family: "NEXTART"; 
+    src: url("/fonts/NEXT/ART_Regular.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+@font-face {
+    font-family: "NEXTART"; 
+    src: url("/fonts/NEXT/ART_SemiBold.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+@font-face {
+    font-family: "NEXTART"; 
+    src: url("/fonts/NEXT/ART_Heavy.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+body {
+    margin: 0;
+}
+section{
+    display: flex;
+    
+}
+header{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    display: flex;
+    background-image: url('image/background4.png'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+.logo h1{
+    line-height: 27px;
+    color: #FFF;
+    font-family: "NEXT ART";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-top: 50px;;
+}
+#bolt{
+    font-weight: 900;
+}
+.head ul{
+    list-style-type: none; 
+    padding: 0px;
+    margin-top: 50px; 
+    margin-right: 50px;
+}
+.head li{
+    font-family:"Nunito Sans";
+    font-size: 18px;
+    font-weight: 600;
+    display: inline; 
+    margin-right: 24px; 
+}
+.head a{
+    font-weight: 400px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.head .button{
+    font-family:"Nunito Sans";
+    font-size: 16px;
+    background-color: #0000005b; 
+    border: none;               
+    color: white;              
+    padding: 15px 32px;       
+    text-align: center;         
+    text-decoration: none;     
+    display: inline-block;    
+    font-size: 16px;           
+    margin: 4px 2px;         
+    cursor: pointer;            
+    border-radius: 4px;        
+    transition: background-color 0.3s, transform 0.2s; 
+}
+.head .button:hover {
+    background-color: #bbbbbb; 
+    transform: scale(1.05);    
+}
+.head .button:active {
+    background-color: #585858; 
+    transform: scale(0.95);    
+}
+.footers{
+    font-family:"Nunito Sans";
+    display: grid;
+    place-items: center;
+    margin:0px;
+    width: 100%;
+    height: 500px;
+    background-color: #1A3E3E;
+}
+.text_footer{
+    margin-top: 0;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:"Nunito Sans";
+    color:white;
+}
+.text_footer h4{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.arrow-list {
+    list-style-type: none; 
+    padding: 0px; 
+}
+
+.arrow-list a{
+    text-decoration: none;
+    color: white;
+}
+.arrow-list li {
+    margin-bottom: 15px;
+    position: relative; 
+    padding-left: 20px; 
+}
+
+.arrow-list li::before {
+    content: "➜";
+    position: absolute; 
+    left: 0; 
+    color: #ffffff;
+}
+.third_textbox{
+    margin-bottom:75px ;
+}
+.h_text{
+    margin-bottom: 57px;
+}
+.h_text p{
+    margin-top: 5px;
+}
+.numbe_footer a{
+  text-decoration: none;
+  color: white;
+}
+.first_textbox{
+    margin-bottom: 77px;
+}
+.footer_under{
+    width: auto;
+    height: 20px;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    margin-top: -650px;
+    margin-bottom: 250px;
+}
+.box .box_gl{
+    display: flex;
+    color: white;
+    width: 1342px;
+    height: 400px;
+    
+}
+.text h1{
+    color: #FFF;
+    font-family: "NEXT ART";
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0px;
+}
+.text p{
+    color: #FFF;
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 0;
+}
+.text h3{
+    color: #FFF;
+    font-family: "NEXT ART";
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 700;
+    margin:0;
+}
+.pictures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 400px;
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    margin-bottom:50px ;
+  }
+
+  .form-container h1 {
+    color: #FFF;
+    font-family: "NEXT ART";
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+  }
+
+  .form-container input[type="text"],
+  .form-container input[type="tel"] {
+    width: 380px;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 4px solid rgba(255, 255, 255, 0.52);
+    background: rgba(217, 217, 217, 0.36);
+    color: #ffffffdb;
+  }
+
+  .form-container input[type="text"]:focus,
+  .form-container input[type="tel"]:focus {
+    outline: none;
+    border-color: #6aa6f8;
+  }
+
+  .form-container input[type="text"].error,
+  .form-container input[type="tel"].error {
+    border-color: red;
+  }
+
+  .form-container button {
+    width: 400px;
+    height: 60px;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #D9D9D9;
+    color: #1A3E3E;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .form-container .message {
+    display: none;
+    font-family:"NEXT ART" ;
+    font-weight: 400px;
+    margin-top: 15px;
+    color: white;
+    font-size: 16px;
+  }

@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@font-face {
+    font-family: "NEXTART"; 
+    src: url("/fonts/NEXT/ART_Bolt.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+@font-face {
+    font-family: "NEXTART"; 
+    src: url("/fonts/NEXT/ART_Regular.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+@font-face {
+    font-family: "NEXTART"; 
+    src: url("/fonts/NEXT/ART_SemiBold.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+@font-face {
+    font-family: "NEXTART"; 
+    src: url("/fonts/NEXT/ART_Heavy.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+body {
+    margin: 0;
+}
+section{
+    display: flex;
+    
+}
+
+.header{
+    display: flex;
+    background-image: url('image/back_2.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 100vh; 
+    margin: 0;
+}
+
+#bolt{
+    font-weight: 900;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+
+.logo h1{
+    line-height: 27px;
+    font-family:"NEXT ART";
+    font-weight:700;
+    font-size: 32px;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+}
+.logo{
+    width: 300px;
+    height: 54px;
+}
+.head{
+    display: flex;
+    height: 44px;
+    list-style-type: none; 
+    padding: 0px; 
+    margin-top: 30px;
+}  
+.head ul{
+    margin-top: 50px;
+    margin-right: 50px;
+    align-items: center;
+    display: flex;
+}
+.head li{
+    font-family:"Nunito Sans";
+    font-size: 18px;
+    font-weight: 600;
+    display: inline;
+    margin-right: 24px; 
+}
+.head a{
+    font-weight: 400px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.head .button{
+    font-family:"Nunito Sans";
+    font-size: 16px;
+    background-color: #0000005b; 
+    border: none;             
+    color: white;        
+    padding: 15px 32px;      
+    text-align: center;       
+    text-decoration: none;      
+    display: inline-block;     
+    font-size: 16px;          
+    margin: 4px 2px;         
+    cursor: pointer;          
+    border-radius: 4px;        
+    transition: background-color 0.3s, transform 0.2s; 
+}
+.head .button:hover {
+    background-color: #bbbbbb; 
+    transform: scale(1.05);  
+}
+
+.head .button:active {
+    background-color: #585858;
+    transform: scale(0.95);   
+}
+.cont{
+    gap: 70px;
+    margin-top: -507px;
+    display: flex;
+    justify-content: center;
+}
+#gid{
+    width: 277px;
+    height: 507px;
+}
+#gid2{
+    margin-top: -24px;
+    width: 277px;
+    height: 531px;
+}
+.Varvara .var{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 909px;
+}
+
+.text_top p{
+    margin-bottom: 0;
+    margin-top: 50px;
+    display: grid;
+    place-items: center;
+    color: #F2BE22;
+    font-family: "Nunito Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+.text_top h2{
+    margin-top: 10px;
+    display: grid;
+    place-items: center;
+    color:  #000;
+    font-family: "Nunito Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+}
+.big_name h1{
+    position: relative;
+    z-index: 2;
+    margin-bottom: -56px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 1845px;
+    height: 288px;
+    color: rgba(134, 134, 134, 0.18);
+    font-family: "NEXT ART";
+    font-size: 390px;
+    font-style: normal;
+    font-weight: 700;
+}
+.info_var{
+    position: relative;
+    z-index: 1;
+    gap:42px;
+}
+.img_var{
+    z-index: 1;
+    margin-bottom: 54px;
+    width: 385px;
+    height: 447px;
+    border-radius: 10px;
+    border: 1px solid rgba(171, 171, 171, 0.56);
+    box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);  
+}
+.Varvara .info_var{
+    display:flex ;
+    align-items: flex-end;
+    height: 100%;
+}
+.text_opr{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.text_opr h3{
+    
+    width: 728px;
+    height: 68px;
+    margin-bottom: 27px;
+    color: black;
+    font-family: "Nunito Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+.box1{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-family: "Nunito Sans";
+    font-size: 18px;
+    font-weight: 700;
+    gap: 10px;
+}
+#icon_gid{
+    width: 32px;
+    height: 32px;
+}
+.top{
+    margin-top: 27px;
+}
+
+.genadiy{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 900px;
+    background-color: #F3F5F4;
+}
+.info_Gen{
+    position: relative;
+    z-index: 1;
+    gap:42px;
+    margin-bottom: 0px;
+    margin-top: 177px;
+}
+.genadiy .info_Gen{
+    display:flex;
+    align-items:center;
+    
+    height: 100%;
+}
+.genadiy .gen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.big_name_gen h1{
+    position: relative;
+    z-index: 2;
+    width: 1049px;
+    height: 297px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgba(26, 62, 62, 0.37);
+    font-family: "NEXT ART";
+    font-size: 325px;
+    font-weight: 700;
+    margin-top: -1000px;
+    margin:0 ;
+}
+.img_gen{
+    position: relative;
+    z-index: 1;
+    margin-bottom: 54px;
+    width: 385px;
+    height: 447px;
+    border-radius: 10px;
+    border: 1px solid rgba(171, 171, 171, 0.56);
+    box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25); 
+    margin-bottom: -100px;
+}
+.evgeniy .evg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 900px;
+}
+.big_name_evg h1{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    width: 2033px;
+    height: 297px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin: 0;
+    color: rgba(134, 134, 134, 0.18);
+    font-family: "NEXT ART";
+    font-size: 390px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4px;
+    margin-top:100px;
+}
+.info_evg{
+    gap:42px;
+
+}
+.evgeniy .info_evg{
+    display:flex;
+    align-items:center;
+    height: 100%;
+}
+.img_evg{
+    margin-top: -1000px;
+    position: relative;
+    z-index: 1;
+}
+.footers{
+    font-family:"Nunito Sans";
+    display: grid;
+    place-items: center;
+    margin:0px;
+    width: 100%;
+    height: 500px;
+    background-color: #1A3E3E;
+}
+.text_footer{
+    margin-top: 0;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:"Nunito Sans";
+    color:white;
+}
+.text_footer h4{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.arrow-list {
+    list-style-type: none; 
+    padding: 0px; 
+}
+
+.arrow-list a{
+    text-decoration: none;
+    color: white;
+}
+.arrow-list li {
+    margin-bottom: 15px;
+    position: relative; 
+    padding-left: 20px; 
+}
+
+.arrow-list li::before {
+    content: "➜";
+    position: absolute;
+    left: 0; 
+    color: #ffffff; 
+}
+.third_textbox{
+    margin-bottom:75px ;
+}
+.h_text{
+    margin-bottom: 57px;
+}
+.h_text p{
+    margin-top: 5px;
+}
+.numbe_footer a{
+  text-decoration: none;
+  color: white;
+}
+.first_textbox{
+    margin-bottom: 77px;
+}
+.footer_under{
+    width: auto;
+    height: 20px;
+
+}
+.IP{
+    background-color: rgba(0, 0, 0, 0.605);
+    color: white;
+    font-family:"Nunito Sans";
+    display: flex;
+    justify-content: center;
+    gap: 600px; 
+}
+.IP a{
+    color: white; 
+}

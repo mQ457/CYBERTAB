@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@font-face {
+    font-family: "NEXTART"; 
+    src: url("/fonts/NEXT/ART_Bolt.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+@font-face {
+    font-family: "NEXTART"; 
+    src: url("/fonts/NEXT/ART_Regular.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+@font-face {
+    font-family: "NEXTART"; 
+    src: url("/fonts/NEXT/ART_SemiBold.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+@font-face {
+    font-family: "NEXTART"; 
+    src: url("/fonts/NEXT/ART_Heavy.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+body {
+    margin: 0;
+}
+section{
+    display: flex;
+    
+}
+header{
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    display: flex;
+    background-image: url('image/gora.png'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+.logo h1{
+    line-height: 27px;
+    color: #FFF;
+    font-family: "NEXT ART";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-top: 50px;;
+}
+#bolt{
+    font-weight: 900;
+}
+.head ul{
+    list-style-type: none; 
+    padding: 0px;
+    margin-top: 50px; 
+    margin-right: 50px;
+}
+.head li{
+    font-family:"Nunito Sans";
+    font-size: 18px;
+    font-weight: 600;
+    display: inline; 
+    margin-right: 24px; 
+}
+.head a{
+    font-weight: 400px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.head .button{
+    font-family:"Nunito Sans";
+    font-size: 16px;
+    background-color: #0000005b; 
+    border: none;               
+    color: white;              
+    padding: 15px 32px;       
+    text-align: center;         
+    text-decoration: none;     
+    display: inline-block;    
+    font-size: 16px;           
+    margin: 4px 2px;         
+    cursor: pointer;            
+    border-radius: 4px;        
+    transition: background-color 0.3s, transform 0.2s; 
+}
+.head .button:hover {
+    background-color: #bbbbbb; 
+    transform: scale(1.05);    
+}
+.head .button:active {
+    background-color: #585858; 
+    transform: scale(0.95);    
+}
+.mapa img{
+    margin-right: 100px;
+    width: 807px;
+    height: 710px;
+    margin-left: 20px;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mapa{
+    background-color: #58585879;
+    width: 1420px;
+    height: 759px;
+    display: flex;
+   margin-top: -770px;
+   margin-left: 140px;
+    align-items: center;
+    border: 5px;
+    border-radius: 15px;
+    border-color: #494949;
+    
+}
+.cont img{
+    margin-top: 20px;
+    width: 261px;
+    height: 65px;
+}
+.cont p{
+    color:rgb(255, 255, 255);
+    font-family: "Nunito Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0;
+}
+.cont h1{
+    color: white;
+    font-family: "Nunito Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    margin: 0;
+}
+.footers{
+    font-family:"Nunito Sans";
+    display: grid;
+    place-items: center;
+    margin:0px;
+    width: 100%;
+    height: 500px;
+    background-color: #1A3E3E;
+}
+.text_footer{
+    margin-top: 0;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:"Nunito Sans";
+    color:white;
+}
+.text_footer h4{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.arrow-list {
+    list-style-type: none; 
+    padding: 0px; 
+}
+
+.arrow-list a{
+    text-decoration: none;
+    color: white;
+}
+.arrow-list li {
+    margin-bottom: 15px;
+    position: relative; 
+    padding-left: 20px; 
+}
+
+.arrow-list li::before {
+    content: "➜";
+    position: absolute; 
+    left: 0; 
+    color: #ffffff;
+}
+.third_textbox{
+    margin-bottom:75px ;
+}
+.h_text{
+    margin-bottom: 57px;
+}
+.h_text p{
+    margin-top: 5px;
+}
+.numbe_footer a{
+  text-decoration: none;
+  color: white;
+}
+.first_textbox{
+    margin-bottom: 77px;
+}
+.footer_under{
+    width: auto;
+    height: 20px;
+
+}
