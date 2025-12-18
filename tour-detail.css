@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Nunito Sans", sans-serif;
+  background: #F3F5F4;
+  color: #122434;
+}
+
+.header,
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+  background: linear-gradient(90deg, #0B2C2C, #1A3E3E);
+  color: #fff;
+}
+
+.logo h1 {
+  margin: 0;
+  line-height: 28px;
+  font-weight: 800;
+  font-family: "NEXT ART", "Nunito Sans", sans-serif;
+}
+
+.head {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.head ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.head li {
+  display: inline-block;
+  margin-right: 18px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.head a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.head .button {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 700;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.head .button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-1px);
+}
+
+#bolt {
+  font-weight: 800;
+}
+
+.detail-page {
+  padding: 32px 0 80px;
+}
+
+.page-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.detail-hero {
+  background: #fff;
+  border-radius: 18px;
+  padding: 28px;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 24px;
+  box-shadow: 0 12px 38px rgba(0, 0, 0, 0.05);
+}
+
+.detail-hero__text h1 {
+  margin: 4px 0 12px;
+  font-size: 32px;
+}
+
+.detail-hero__image {
+  min-height: 260px;
+  border-radius: 14px;
+  background-size: cover;
+  background-position: center;
+}
+
+.detail-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+  margin: 12px 0;
+  font-weight: 700;
+  color: #1A3E3E;
+}
+
+.detail-price {
+  font-size: 22px;
+  font-weight: 800;
+  color: #1A3E3E;
+}
+
+.detail-content {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 18px;
+}
+
+.detail-block {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 12px 38px rgba(0, 0, 0, 0.06);
+}
+
+.detail-block h2 {
+  margin-top: 0;
+}
+
+.mountain-list {
+  padding-left: 20px;
+  color: #122434;
+}
+
+.ticket-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ticket-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-weight: 600;
+  color: #1A3E3E;
+}
+
+.ticket-form input,
+.ticket-form select {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #D7D8D9;
+  font-size: 15px;
+}
+
+.ticket-form button {
+  background: #1A3E3E;
+  color: #fff;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.ticket-form button:hover {
+  opacity: 0.9;
+}
+
+.message {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.message.success {
+  color: #1A8F3E;
+}
+
+.message.error {
+  color: #D64545;
+}
+
+.detail-note {
+  color: #5C6A73;
+  margin-top: 0;
+}
+
+footer {
+  background: #0B2C2C;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footers {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.text_footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.text_footer h4 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.text_footer p,
+.text_footer a,
+.text_footer li {
+  color: #E6EFEF;
+  text-decoration: none;
+  list-style: none;
+  margin: 4px 0;
+}
+
+.arrow-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.arrow-list li {
+  margin-bottom: 12px;
+  position: relative;
+  padding-left: 18px;
+}
+
+.arrow-list li::before {
+  content: "➜";
+  position: absolute;
+  left: 0;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.arrow-list a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer_under {
+  width: auto;
+  height: 20px;
+}
+
+.IP {
+  background-color: rgba(0, 0, 0, 0.605);
+  color: white;
+  font-family: "Nunito Sans";
+  display: flex;
+  justify-content: center;
+  gap: 600px;
+}
+
+.IP a {
+  color: white;
+}
+
+@media (max-width: 900px) {
+  .detail-hero {
+    grid-template-columns: 1fr;
+  }
+}
+

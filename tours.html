@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Туры</title>
+  <link rel="stylesheet" href="tours.css">
+  <link rel="stylesheet" href="common.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+        <h1>Dream<br>Destinations</h1>
+    </div>
+    <div class="head">
+        <ul>
+           <li><a href="index.html">Главная</a></li>
+           <li><a href="Gids.html">Про гида</a></li>
+           <li><a href="Tures.html">Программа тура</a></li>
+           <li><a id="bolt" href="tours.html">Туры</a></li>
+           <li><a href="price.html">Стоимость</a></li>
+           <li><a href="blog.html">Блог</a></li>
+           <li><a href="Cont.html">Контакты</a></li>
+           <li class="faq"><a href="FAQ.html">FAQ</a></li>
+           <li class="login"><a href="auth.html">Войти</a></li>
+        </ul>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">подберите маршрут</p>
+        <h1>Туры под любые задачи</h1>
+        <p class="lead">Выберите сезон, количество людей и формат похода — покажем актуальные программы.</p>
+      </div>
+      <form id="tours-filter" class="filters">
+        <label>
+          Локация
+          <select id="loc"></select>
+        </label>
+        <label>
+          Месяц/сезон
+          <select id="Day"></select>
+        </label>
+        <label>
+          Кол-во людей
+          <select id="People"></select>
+        </label>
+      </form>
+    </section>
+
+    <section class="tours-grid" id="tour-cards"></section>
+  </main>
+
+  <footer>
+    <div class="footers">
+        <div class="text_footer">
+            <div class="first_textbox">
+                <div class="h_text">
+                <h4>Компания Dream Destinations</h4>
+                <p>— ваш надежный партнер в мире горного туризма.</p>
+                </div>
+                <div class="numbe_footer">
+                    <p><a href="">DreamDestination@domin.com</a></p>
+                    <p>+7 (123) 456-78-90</p>
+                </div>
+            </div>
+            <div class="second_textbox">
+                <h4>Наши услуги</h4>
+                <ul class="arrow-list">
+                    <li><a href="">Летние походы</a></li>
+                    <li><a href="">Зимние походы</a></li>
+                    <li><a href="">Посещение горных храмов</a></li>
+                    <li><a href="">Экстримальные виды туризма</a></li>
+                    <li><a href="">Походы через джурнгли Амазонии</a></li>
+                    <li><a href="">Туры в Африку</a></li>
+                </ul>
+            </div>
+            <div class="third_textbox">
+                <h4>Важно для путешествий</h4>
+                <ul class="arrow-list">
+                    <li><a href="">Как собраться в долгие походы</a></li>
+                    <li><a href="">Важные элементы экипировки</a></li>
+                    <li><a href="">Важные элементы экипировки</a></li>
+                    <li><a href="">Правила проведения ПМП</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  </footer>
+</body>
+</html>
+

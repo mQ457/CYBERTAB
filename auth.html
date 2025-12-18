@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Вход и регистрация</title>
+  <link rel="stylesheet" href="auth.css">
+  <link rel="stylesheet" href="common.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap">
+  <script src="auth.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+        <h1>Dream<br>Destinations</h1>
+    </div>
+    <div class="head">
+        <ul>
+           <li><a href="index.html">Главная</a></li>
+           <li><a href="Gids.html">Про гида</a></li>
+           <li><a href="Tures.html">Программа тура</a></li>
+           <li><a href="tours.html">Туры</a></li>
+           <li><a href="price.html">Стоимость</a></li>
+           <li><a href="blog.html">Блог</a></li>
+           <li><a href="Cont.html">Контакты</a></li>
+           <li class="faq"><a href="FAQ.html">FAQ</a></li>
+           <li class="login"><a id="bolt" href="auth.html">Войти</a></li>
+        </ul>
+    </div>
+  </header>
+
+  <main class="auth-page">
+    <section class="auth-card">
+      <div class="auth-hero">
+        <p class="eyebrow">личный кабинет</p>
+        <h1>Вход и регистрация</h1>
+        <p class="lead">Сохраняйте прогресс, бронируйте туры и общайтесь с нашими гидами.</p>
+        <ul class="benefits">
+          <li>История запросов и подборок</li>
+          <li>Сохранённые участники группы</li>
+          <li>Напоминания о выезде и оплате</li>
+        </ul>
+      </div>
+      <div class="auth-form">
+        <div class="tabs">
+          <button class="tab active" data-tab="login">Войти</button>
+          <button class="tab" data-tab="register">Регистрация</button>
+        </div>
+        <form id="login" class="form active">
+          <label>Email
+            <input type="email" name="email" required placeholder="you@email.com">
+          </label>
+          <label>Пароль
+            <input type="password" name="password" required placeholder="********">
+          </label>
+          <button type="submit">Войти</button>
+        </form>
+        <form id="register" class="form">
+          <label>Имя
+            <input type="text" name="name" required placeholder="Ваше имя">
+          </label>
+          <label>Email
+            <input type="email" name="email" required placeholder="you@email.com">
+          </label>
+          <label>Пароль
+            <input type="password" name="password" required minlength="6" placeholder="Минимум 6 символов">
+          </label>
+          <button type="submit">Создать аккаунт</button>
+        </form>
+        <div id="auth-message" class="message"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footers">
+        <div class="text_footer">
+            <div class="first_textbox">
+                <div class="h_text">
+                <h4>Компания Dream Destinations</h4>
+                <p>— ваш надежный партнер в мире горного туризма.</p>
+                </div>
+                <div class="numbe_footer">
+                    <p><a href="">DreamDestination@domin.com</a></p>
+                    <p>+7 (123) 456-78-90</p>
+                </div>
+            </div>
+            <div class="second_textbox">
+                <h4>Наши услуги</h4>
+                <ul class="arrow-list">
+                    <li><a href="">Летние походы</a></li>
+                    <li><a href="">Зимние походы</a></li>
+                    <li><a href="">Посещение горных храмов</a></li>
+                    <li><a href="">Экстримальные виды туризма</a></li>
+                    <li><a href="">Походы через джурнгли Амазонии</a></li>
+                    <li><a href="">Туры в Африку</a></li>
+                </ul>
+            </div>
+            <div class="third_textbox">
+                <h4>Важно для путешествий</h4>
+                <ul class="arrow-list">
+                    <li><a href="">Как собраться в долгие походы</a></li>
+                    <li><a href="">Важные элементы экипировки</a></li>
+                    <li><a href="">Важные элементы экипировки</a></li>
+                    <li><a href="">Правила проведения ПМП</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  </footer>
+</body>
+</html>
+

@@ -1,0 +1,9 @@
+/* Базовые переменные и сброс без изменения макета */
+:root {
+    --brand-color: #1A3E3E;
+    --accent-color: #F2BE22;
+}
+
+body {
+    margin: 0;
+}

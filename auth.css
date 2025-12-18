@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Nunito Sans", sans-serif;
+  background: #F3F5F4;
+  color: #122434;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 50px;
+  background: linear-gradient(90deg, #0B2C2C, #1A3E3E);
+  color: #fff;
+}
+
+.logo h1 {
+  margin: 0;
+  line-height: 28px;
+  font-weight: 800;
+}
+
+.head ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.head li {
+  display: inline-block;
+  margin-right: 18px;
+}
+
+.head a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.head .button {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 700;
+}
+
+#bolt {
+  font-weight: 800;
+}
+
+.auth-page {
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 0 24px 80px;
+}
+
+.auth-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 14px 44px rgba(0, 0, 0, 0.08);
+}
+
+.auth-hero {
+  background: radial-gradient(circle at 20% 20%, rgba(242, 190, 34, 0.12), transparent 50%),
+              radial-gradient(circle at 80% 0%, rgba(26, 62, 62, 0.18), transparent 55%),
+              #0F2F2F;
+  color: #fff;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #F2BE22;
+  margin: 0 0 6px;
+  font-weight: 700;
+}
+
+.auth-hero h1 {
+  margin: 0 0 10px;
+  font-size: 30px;
+}
+
+.lead {
+  margin: 0 0 14px;
+  color: #EAF1F1;
+  line-height: 1.5;
+}
+
+.benefits {
+  margin: 0;
+  padding-left: 18px;
+  color: #EAF1F1;
+  line-height: 1.5;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.tabs {
+  display: inline-flex;
+  padding: 4px;
+  background: #F3F5F4;
+  border-radius: 10px;
+  gap: 4px;
+}
+
+.tab {
+  border: none;
+  background: transparent;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #3B4C58;
+}
+
+.tab.active {
+  background: #1A3E3E;
+  color: #fff;
+}
+
+.form {
+  display: none;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form.active {
+  display: flex;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-weight: 600;
+  color: #3B4C58;
+}
+
+.form input {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #D7D8D9;
+  background: #F9FAFB;
+  font-size: 15px;
+}
+
+.form button {
+  margin-top: 8px;
+  background: #1A3E3E;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.form button:hover {
+  transform: translateY(-1px);
+  background: #114848;
+}
+
+.message {
+  min-height: 24px;
+  font-weight: 700;
+}
+
+.message.error {
+  color: #C0392B;
+}
+
+.message.success {
+  color: #1A7A47;
+}
+
+footer {
+  background: #0B2C2C;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footers {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.text_footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.text_footer h4 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.text_footer p,
+.text_footer a,
+.text_footer li {
+  color: #E6EFEF;
+  text-decoration: none;
+  list-style: none;
+  margin: 4px 0;
+}
+

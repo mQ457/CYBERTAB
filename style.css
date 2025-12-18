@@ -23,7 +23,14 @@
     font-style: normal; 
     font-weight: normal; 
 }
-
+.back{
+    background-image: url('image/Rectangle 1.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    margin: 0; 
+}
 body {
     margin: 0;
 }
@@ -33,14 +40,6 @@ section{
 }
 #bolt{
     font-weight: 900;
-}
-.back{
-    background-image: url('image/Rectangle 1.png');
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    height: 100vh; 
-    margin: 0; 
 }
 header{
     margin-top: 0px;
@@ -104,8 +103,12 @@ header{
     transform: scale(0.95);    
 }
 .info{
-    margin-top:400px;
-    margin-left: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 120px);
+    text-align: center;
 }
 .info .one{
    font-family:"Nunito Sans";
@@ -114,20 +117,17 @@ header{
    font-size: 50px;
    display: flex;
    align-items: center;
-   margin-left: 0px ;
-   margin-top:0px;
-   margin-bottom: 0px;
+   justify-content: center;
+   margin: 0 0 40px 0;
 }
 .spisok{
-   
-   margin-bottom: 0px;
-   margin-left: 0px;
    border-radius: 10px;
    width: 1080px;
    height: 151px;
    background-color: rgba(254, 254, 254, 0.282);
    display: flex;
-   position: absolute;
+   justify-content: center;
+   align-items: center;
    gap: 20px; 
 }
 .buttonS {
@@ -225,11 +225,7 @@ form [for="People"]{
    font-weight: 400;
    color: white;
 }
-.one{
-    margin-top:400px;
-    margin-left: 370px;
-}
-
+/* убран дубликат, поведение задано выше */
 .img_one{
     width: 350px;
     height: 400px;

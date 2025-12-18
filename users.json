@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1765445922340,
+    "name": "глеб",
+    "email": "fds@gmail.com",
+    "passwordHash": "$2b$10$7n20t1c1UBOxVfHWR30nEuWZEBEcbX.66CB.oD3oYQXn6AtpopMdS",
+    "createdAt": "2025-12-11T09:38:42.340Z"
+  },
+  {
+    "id": 1765446005241,
+    "name": "Глеб",
+    "email": "gleb@gmail.com",
+    "passwordHash": "$2b$10$8wBwJ2EO7tupyn6I2ohgee1sT8ICe9/vDBa8PjwBT/F9sjiDSdEQC",
+    "createdAt": "2025-12-11T09:40:05.241Z"
+  },
+  {
+    "id": 1765448237332,
+    "name": "Славик",
+    "email": "slavik@gmail.com",
+    "passwordHash": "$2b$10$R/UiwTZTAdZ1Q.NFQp01WeoOIkwLmve4CeOfuZTWAaEZUdxgg8xWi",
+    "createdAt": "2025-12-11T10:17:17.332Z"
+  },
+  {
+    "id": 1765448279067,
+    "name": "fgasfg",
+    "email": "sdfsdf@gmail.com",
+    "passwordHash": "$2b$10$1lW3X2zvExNjmzVbJRm/SO28xwG0igtH66ZePxjO2Uk.WOZUuWyAm",
+    "createdAt": "2025-12-11T10:17:59.067Z"
+  },
+  {
+    "id": 1765448326832,
+    "name": "fgasfg",
+    "email": "sdfsdff@gmail.com",
+    "passwordHash": "$2b$10$mzmn2.K1PV7/vu/pFjHgdeswnyEu6iXDxBtN2IBuPTmYM0n99Iji.",
+    "createdAt": "2025-12-11T10:18:46.832Z"
+  }
+]
